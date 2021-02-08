@@ -172,7 +172,7 @@ get_python_inc(),
 
 ---
 
-##总结
+## 总结
 
 在最后小小的自我反省一下，
 整个配置gVim过程中花费了大量时间去解决这几个问题，
@@ -181,4 +181,25 @@ get_python_inc(),
 并且在半天没查到时，
 我才反过头来去看那些让我去看说明文档的回答。
 
+## 2020.01.07补充
 
+### gutentags无法正常使用
+
+具体的报错信息没有截图保存，
+大概第一行如下，
+同时还会报错大意是`没有找到ctags，已经自动把gutentags_enable置为0，如果想重新启动请把那个变量置为1`。
+
+`error detected while processing bufread auto commands gutentags`
+
+这个问题是由于在Windows下没有安装ctags导致的，
+那么只需要到[exuberant ctags官网](http://ctags.sourceforge.net/)下载ctags，
+并将解压后的目录添加到系统环境变量中即可。
+
+### markdown-preview编辑公式时公式总会重新渲染导致预览页面乱跳
+
+这个问题我一开始以为是由于游览器导致的，
+我从firefox转到chrome都没有解决，
+后来去看了同一作者的`markdown-preview.nvim`(原先是markdown-preview.vim),
+发现这个插件也支持vim8.1以上的版本，
+尝试了一下，
+发现没有了这个问题。
