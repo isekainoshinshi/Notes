@@ -32,3 +32,5 @@ $$如果T(N)是k阶多项式T(N) = \Omega(N^k)$$
 通常讨论的都是最坏情况运行时间，因为平均运行时间难以计算。
 
 [GrowthRate]:GrowthRate.png
+
+
