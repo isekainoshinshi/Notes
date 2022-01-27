@@ -1,3 +1,32 @@
+<!-- vim-markdown-toc GFM -->
+
+* [树(Tree)](#树tree)
+	* [预备知识](#预备知识)
+		* [树的实现](#树的实现)
+		* [应用](#应用)
+	* [二叉树(Binary Trees)](#二叉树binary-trees)
+		* [介绍](#介绍)
+		* [实现](#实现)
+		* [表达式树](#表达式树)
+		* [实现](#实现-1)
+	* [查找树ADT---二叉查找树(binary search tree)](#查找树adt---二叉查找树binary-search-tree)
+		* [实现](#实现-2)
+			* [Find](#find)
+			* [Insert](#insert)
+			* [Delete](#delete)
+		* [平均情况分析](#平均情况分析)
+	* [AVL树](#avl树)
+		* [单旋(single rotation)](#单旋single-rotation)
+		* [双旋(double rotation)](#双旋double-rotation)
+		* [实现](#实现-3)
+	* [伸展树(splay tree)](#伸展树splay-tree)
+		* [基本想法](#基本想法)
+		* [伸展(splaying)](#伸展splaying)
+	* [B树](#b树)
+		* [介绍](#介绍-1)
+
+<!-- vim-markdown-toc -->
+
 # 树(Tree)
 
 ## 预备知识
@@ -26,7 +55,7 @@ a2是a1的`真后裔(proper descendent)`.
 
 在树中, 兄弟节点之间通过链表链接, 对于每个节点都有指向子节点和兄弟节点的指针.
 
-![](./NodeDeclarations.png)
+![](./pic/NodeDeclarations.png)
 
 ### 应用
 
@@ -156,7 +185,7 @@ AVL树就相当于是二叉查找树加上了一个相对不那么严苛的平�
 AVL树的`高度`最多大约为$1.44\log(N+2) - 1.328$,
 但实际使用过程中其`高度`稍大于$\log(N)$.
 
-![AVLTreeExample](./AVLTreeExample.png)
+![AVLTreeExample](pic/AVLTreeExample.png)
 
 这是张高度为9的AVL树, 左子树的高度为7, 右子树的高度为8,
 这两个高度是该高度AVL树的最小高度( 这点根据AVL树的定义, 没有任何疑问 ), 
@@ -259,3 +288,20 @@ AVL树的`高度`最多大约为$1.44\log(N+2) - 1.328$,
 ### 伸展(splaying)
 
 伸展策略与上面提到的旋转的基本想法很像, 区别在于伸展是稍微有选择性的旋转.
+伸展的的策略由展开节点与其父节点和爷节点的关系决定,
+具体来说, 如果关系呈之字形, 则采用双旋;
+反之呈现一字型, 则采用单选, 直至将展开节点移动到根处.
+
+## B树
+
+### 介绍
+
+阶为$M$的B树有以下特点:
+- 内容存储在树叶上, 并且所有树叶处于统一的深度
+- 根的儿子数量和树叶中内容的数量$\in [2, M]$
+- 除了根和树叶, 其他节点的儿子数量$\in [ \left\lceil \frac{M}{2} \right\rceil , M]$
+
+B树深度最大为$\left\lceil \log _{\left\lceil \frac{M}{2} \right\rceil } N \right\rceil$,
+`最坏情况运行时间`为$O(M\log _{M}N)$, 其中$N$代表总元素数.
+
+

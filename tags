@@ -1,6 +1,184 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	D:/3.Notes/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/6f544dfc/
+2.1	./DataStructure/chapter1/resolution.md	/^## 2.1$/;"	s	chapter:课后题回答
+2.10	./DataStructure/chapter1/resolution.md	/^## 2.10$/;"	s	chapter:课后题回答
+2.11	./DataStructure/chapter1/resolution.md	/^## 2.11$/;"	s	chapter:课后题回答
+2.12	./DataStructure/chapter1/resolution.md	/^## 2.12$/;"	s	chapter:课后题回答
+2.13	./DataStructure/chapter1/resolution.md	/^## 2.13$/;"	s	chapter:课后题回答
+2.14	./DataStructure/chapter1/resolution.md	/^## 2.14$/;"	s	chapter:课后题回答
+2.15	./DataStructure/chapter1/resolution.md	/^## 2.15$/;"	s	chapter:课后题回答
+2.16	./DataStructure/chapter1/resolution.md	/^## 2.16$/;"	s	chapter:课后题回答
+2.17	./DataStructure/chapter1/resolution.md	/^## 2.17$/;"	s	chapter:课后题回答
+2.18	./DataStructure/chapter1/resolution.md	/^## 2.18$/;"	s	chapter:课后题回答
+2.19	./DataStructure/chapter1/resolution.md	/^## 2.19$/;"	s	chapter:课后题回答
+2.2	./DataStructure/chapter1/resolution.md	/^## 2.2$/;"	s	chapter:课后题回答
+2.20	./DataStructure/chapter1/resolution.md	/^## 2.20$/;"	s	chapter:课后题回答
+2.21	./DataStructure/chapter1/resolution.md	/^## 2.21$/;"	s	chapter:课后题回答
+2.22	./DataStructure/chapter1/resolution.md	/^## 2.22$/;"	s	chapter:课后题回答
+2.23	./DataStructure/chapter1/resolution.md	/^## 2.23$/;"	s	chapter:课后题回答
+2.24	./DataStructure/chapter1/resolution.md	/^## 2.24$/;"	s	chapter:课后题回答
+2.25	./DataStructure/chapter1/resolution.md	/^## 2.25$/;"	s	chapter:课后题回答
+2.3	./DataStructure/chapter1/resolution.md	/^## 2.3$/;"	s	chapter:课后题回答
+2.4	./DataStructure/chapter1/resolution.md	/^## 2.4$/;"	s	chapter:课后题回答
+2.5	./DataStructure/chapter1/resolution.md	/^## 2.5$/;"	s	chapter:课后题回答
+2.6	./DataStructure/chapter1/resolution.md	/^## 2.6$/;"	s	chapter:课后题回答
+2.7	./DataStructure/chapter1/resolution.md	/^## 2.7$/;"	s	chapter:课后题回答
+2.8	./DataStructure/chapter1/resolution.md	/^## 2.8$/;"	s	chapter:课后题回答
+2.9	./DataStructure/chapter1/resolution.md	/^## 2.9$/;"	s	chapter:课后题回答
+2020.01.07补充	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 2020.01.07补充$/;"	s	chapter:在配置GVim过程中遇到的一些问题
+AVL树	./DataStructure/chapter3/Tree.md	/^## AVL树$/;"	s	chapter:树(Tree)
+B树	./DataStructure/chapter3/Tree.md	/^## B树$/;"	s	chapter:树(Tree)
+Delete	./DataStructure/chapter3/Tree.md	/^#### Delete$/;"	t	subsection:树(Tree)""查找树ADT---二叉查找树(binary search tree)""实现
+Find	./DataStructure/chapter3/Tree.md	/^#### Find$/;"	t	subsection:树(Tree)""查找树ADT---二叉查找树(binary search tree)""实现
+Insert	./DataStructure/chapter3/Tree.md	/^#### Insert$/;"	t	subsection:树(Tree)""查找树ADT---二叉查找树(binary search tree)""实现
+Introduction	./DataStructure/README.md	/^# Introduction$/;"	c
+Introduction	./HowToGit/README.md	/^# Introduction$/;"	c
+Moore-Penrose伪逆	./DeepLearningBook/part2/linear_algebra.md	/^## Moore-Penrose伪逆$/;"	s	chapter:线性代数
+Moore-Penrose伪逆	DeepLearningBook/part2/linear_algebra.md	/^## Moore-Penrose伪逆$/;"	s	chapter:线性代数
+Q值	./Principle_of_Laser/Summary.md	/^### Q值$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+Summary	./DataStructure/SUMMARY.md	/^# Summary$/;"	c
+Summary	./HowToGit/SUMMARY.md	/^# Summary$/;"	c
+YCM安装完提示无法加载python36.dll	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### YCM安装完提示无法加载python36.dll$/;"	S	section:在配置GVim过程中遇到的一些问题""遇到的困难
+YCM崩溃	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### YCM崩溃$/;"	S	section:在配置GVim过程中遇到的一些问题""遇到的困难
+YCM无法正常补全头文件和一些函数	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### YCM无法正常补全头文件和一些函数$/;"	S	section:在配置GVim过程中遇到的一些问题""遇到的困难
+blob	./HowToGit/chapter2/chapter2.md	/^### blob$/;"	S	section:在.git文件中都有些什么""objects文件夹中的内容
+commit	./HowToGit/chapter2/chapter2.md	/^### commit$/;"	S	section:在.git文件中都有些什么""objects文件夹中的内容
+gutentags无法正常使用	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### gutentags无法正常使用$/;"	S	section:在配置GVim过程中遇到的一些问题""2020.01.07补充
+markdown-preview编辑公式时公式总会重新渲染导致预览页面乱跳	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### markdown-preview编辑公式时公式总会重新渲染导致预览页面乱跳$/;"	S	section:在配置GVim过程中遇到的一些问题""2020.01.07补充
+objects文件夹中的内容	./HowToGit/chapter2/chapter2.md	/^## objects文件夹中的内容$/;"	s	chapter:在.git文件中都有些什么
+tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中都有些什么""objects文件夹中的内容
+三能级系统	./Principle_of_Laser/Summary.md	/^#### 三能级系统$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""小信号速率方程
+三能级系统	./Principle_of_Laser/Summary.md	/^#### 三能级系统$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""速率方程
+不考虑损耗	./Principle_of_Laser/Summary.md	/^#### 不考虑损耗$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""能流密度
+个人理解	./DeepLearningBook/part1/introduction1.md	/^#### 个人理解$/;"	t	subsection:介绍1""机器学习（machine learning）""差变因素（factors of variation）
+主成分分析	DeepLearningBook/part2/linear_algebra.md	/^## 主成分分析$/;"	s	chapter:线性代数
+二叉树(Binary Trees)	./DataStructure/chapter3/Tree.md	/^## 二叉树(Binary Trees)$/;"	s	chapter:树(Tree)
+介绍	./DataStructure/chapter3/Tree.md	/^### 介绍$/;"	S	section:树(Tree)""B树
+介绍	./DataStructure/chapter3/Tree.md	/^### 介绍$/;"	S	section:树(Tree)""二叉树(Binary Trees)
+介绍1	./DeepLearningBook/part1/introduction1.md	/^# 介绍1$/;"	c
+他们间的关系	./DeepLearningBook/part1/introduction1.md	/^## 他们间的关系$/;"	s	chapter:介绍1
+以数组方式实现	./DataStructure/chapter2/List.md	/^## 以数组方式实现$/;"	s	chapter:表(list)
+伸展(splaying)	./DataStructure/chapter3/Tree.md	/^### 伸展(splaying)$/;"	S	section:树(Tree)""伸展树(splay tree)
+伸展树(splay tree)	./DataStructure/chapter3/Tree.md	/^## 伸展树(splay tree)$/;"	s	chapter:树(Tree)
+何为深度学习	./DeepLearningBook/part1/introduction1.md	/^## 何为深度学习$/;"	s	chapter:介绍1
+例1	./DataStructure/chapter2/List.md	/^#### 例1$/;"	t	section:表(list)""例子
+例2	./DataStructure/chapter2/List.md	/^#### 例2$/;"	t	section:表(list)""例子
+例3	./DataStructure/chapter2/List.md	/^#### 例3$/;"	t	section:表(list)""例子
+例子	./DataStructure/chapter2/List.md	/^## 例子$/;"	s	chapter:表(list)
+例子	./DataStructure/chapter2/Queue.md	/^## 例子$/;"	s	chapter:队列(queue)
+例子	./DataStructure/chapter2/Stack.md	/^## 例子$/;"	s	chapter:栈(stack)
+例子1	./DataStructure/chapter2/Stack.md	/^### 例子1$/;"	S	section:栈(stack)""例子
+例子2	./DataStructure/chapter2/Stack.md	/^### 例子2$/;"	S	section:栈(stack)""例子
+例子3	./DataStructure/chapter2/Stack.md	/^### 例子3$/;"	S	section:栈(stack)""例子
+光传输功率	./Principle_of_Laser/Summary.md	/^### 光传输功率$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+光场强度(光场能流密度)	./Principle_of_Laser/Summary.md	/^### 光场强度(光场能流密度)$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+光场总能量	./Principle_of_Laser/Summary.md	/^### 光场总能量$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+光场能流密度	./Principle_of_Laser/Summary.md	/^### 光场能流密度$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+光波速度	./Principle_of_Laser/Summary.md	/^### 光波速度$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+光源移动, 接收器静止:	./Principle_of_Laser/Summary.md	/^###### 光源移动, 接收器静止:$/;"	u	l4subsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型""多普勒频移
+光源静止, 接收器移动:	./Principle_of_Laser/Summary.md	/^###### 光源静止, 接收器移动:$/;"	u	l4subsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型""多普勒频移
+共振速度	./Principle_of_Laser/Summary.md	/^### 共振速度$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+分类	./Principle_of_Laser/Summary.md	/^### 分类$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+前提	./DataStructure/chapter1/AlgorithmAnalysis.md	/^## 前提$/;"	s	chapter:算法分析
+加宽	./Principle_of_Laser/Summary.md	/^### 加宽$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+单位体积内光场总能量	./Principle_of_Laser/Summary.md	/^### 单位体积内光场总能量$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+单旋(single rotation)	./DataStructure/chapter3/Tree.md	/^### 单旋(single rotation)$/;"	S	section:树(Tree)""AVL树
+单色性系数	./Principle_of_Laser/Summary.md	/^### 单色性系数$/;"	S	section:激光原理知识点总结""基础概念
+双向链表(double linked list)	./DataStructure/chapter2/List.md	/^### 双向链表(double linked list)$/;"	S	section:表(list)""链表(linked list)
+双旋(double rotation)	./DataStructure/chapter3/Tree.md	/^### 双旋(double rotation)$/;"	S	section:树(Tree)""AVL树
+受激吸收跃迁几率	./Principle_of_Laser/Summary.md	/^### 受激吸收跃迁几率$/;"	S	section:激光原理知识点总结""基础概念
+受激跃迁几率(考虑考虑谱线加宽)	./Principle_of_Laser/Summary.md	/^### 受激跃迁几率(考虑考虑谱线加宽)$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+受激辐射跃迁几率	./Principle_of_Laser/Summary.md	/^### 受激辐射跃迁几率$/;"	S	section:激光原理知识点总结""基础概念
+四能级系统	./Principle_of_Laser/Summary.md	/^#### 四能级系统$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""小信号速率方程
+四能级系统	./Principle_of_Laser/Summary.md	/^#### 四能级系统$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""速率方程
+在.git文件中都有些什么	./HowToGit/chapter2/chapter2.md	/^# 在.git文件中都有些什么$/;"	c
+在配置GVim过程中遇到的一些问题	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^# 在配置GVim过程中遇到的一些问题$/;"	c
+均匀加宽	./Principle_of_Laser/Summary.md	/^#### 均匀加宽$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""增益系数
+均匀加宽: 洛伦兹型	./Principle_of_Laser/Summary.md	/^#### 均匀加宽: 洛伦兹型$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""加宽
+基于知识的方法	./DeepLearningBook/part1/introduction1.md	/^## 基于知识的方法$/;"	s	chapter:介绍1
+基本想法	./DataStructure/chapter3/Tree.md	/^### 基本想法$/;"	S	section:树(Tree)""伸展树(splay tree)
+基础概念	./Principle_of_Laser/Summary.md	/^## 基础概念$/;"	s	chapter:激光原理知识点总结
+增益系数	./Principle_of_Laser/Summary.md	/^### 增益系数$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+多普勒加宽	./Principle_of_Laser/Summary.md	/^##### 多普勒加宽$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型
+多普勒频移	./Principle_of_Laser/Summary.md	/^##### 多普勒频移$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型
+奇异分解	./DeepLearningBook/part2/linear_algebra.md	/^## 奇异分解$/;"	s	chapter:线性代数
+奇异分解	DeepLearningBook/part2/linear_algebra.md	/^## 奇异分解$/;"	s	chapter:线性代数
+实现	./DataStructure/chapter3/Tree.md	/^### 实现$/;"	S	section:树(Tree)""AVL树
+实现	./DataStructure/chapter3/Tree.md	/^### 实现$/;"	S	section:树(Tree)""二叉树(Binary Trees)
+实现	./DataStructure/chapter3/Tree.md	/^### 实现$/;"	S	section:树(Tree)""查找树ADT---二叉查找树(binary search tree)
+小信号反转粒子数	./Principle_of_Laser/Summary.md	/^##### 小信号反转粒子数$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""小信号速率方程""三能级系统
+小信号反转粒子数	./Principle_of_Laser/Summary.md	/^##### 小信号反转粒子数$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""小信号速率方程""四能级系统
+小信号速率方程	./Principle_of_Laser/Summary.md	/^### 小信号速率方程$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+差变因素（factors of variation）	./DeepLearningBook/part1/introduction1.md	/^### 差变因素（factors of variation）$/;"	S	section:介绍1""机器学习（machine learning）
+平均单程损耗率	./Principle_of_Laser/Summary.md	/^### 平均单程损耗率$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+平均情况分析	./DataStructure/chapter3/Tree.md	/^### 平均情况分析$/;"	S	section:树(Tree)""查找树ADT---二叉查找树(binary search tree)
+应用	./DataStructure/chapter3/Tree.md	/^### 应用$/;"	S	section:树(Tree)""预备知识
+循环链表(circularly linked list)	./DataStructure/chapter2/List.md	/^### 循环链表(circularly linked list)$/;"	S	section:表(list)""链表(linked list)
+总结	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 总结$/;"	s	chapter:在配置GVim过程中遇到的一些问题
+抽象数据类	./DataStructure/chapter2/AbstractDataTypes.md	/^# 抽象数据类$/;"	c
+插件配置	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 插件配置$/;"	s	chapter:在配置GVim过程中遇到的一些问题
+数学定义	./DataStructure/chapter1/AlgorithmAnalysis.md	/^## 数学定义$/;"	s	chapter:算法分析
+无法找到Ruby的一些文件	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### 无法找到Ruby的一些文件$/;"	S	section:在配置GVim过程中遇到的一些问题""遇到的困难
+本征纵模线宽	./Principle_of_Laser/Summary.md	/^### 本征纵模线宽$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+机器学习（machine learning）	./DeepLearningBook/part1/introduction1.md	/^## 机器学习（machine learning）$/;"	s	chapter:介绍1
+条款1: 理解模板型别推导	./Effective_Mordern_CPP/chapter1/类别推导.md	/^# 条款1: 理解模板型别推导$/;"	c
+查找树ADT---二叉查找树(binary search tree)	./DataStructure/chapter3/Tree.md	/^## 查找树ADT---二叉查找树(binary search tree)$/;"	s	chapter:树(Tree)
+栈(stack)	./DataStructure/chapter2/Stack.md	/^# 栈(stack)$/;"	c
+栈的数组实现	./DataStructure/chapter2/Stack.md	/^## 栈的数组实现$/;"	s	chapter:栈(stack)
+栈的链表实现	./DataStructure/chapter2/Stack.md	/^## 栈的链表实现$/;"	s	chapter:栈(stack)
+树(Tree)	./DataStructure/chapter3/Tree.md	/^# 树(Tree)$/;"	c
+树的实现	./DataStructure/chapter3/Tree.md	/^### 树的实现$/;"	S	section:树(Tree)""预备知识
+模密度	./Principle_of_Laser/Summary.md	/^### 模密度$/;"	S	section:激光原理知识点总结""基础概念
+深度学习对问题的解决	./DeepLearningBook/part1/introduction1.md	/^### 深度学习对问题的解决$/;"	S	section:介绍1""机器学习（machine learning）
+激光原理知识点总结	./Principle_of_Laser/Summary.md	/^# 激光原理知识点总结$/;"	c
+激光本征模式	./Principle_of_Laser/Summary.md	/^### 激光本征模式$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+爬虫基础知识	./Python_Scraping/part1/part1.md	/^# 爬虫基础知识$/;"	c
+特征分解	./DeepLearningBook/part2/linear_algebra.md	/^## 特征分解$/;"	s	chapter:线性代数
+特征分解	DeepLearningBook/part2/linear_algebra.md	/^## 特征分解$/;"	s	chapter:线性代数
+相干时间	./Principle_of_Laser/Summary.md	/^### 相干时间$/;"	S	section:激光原理知识点总结""基础概念
+相干面积	./Principle_of_Laser/Summary.md	/^### 相干面积$/;"	S	section:激光原理知识点总结""基础概念
+碰撞加宽	./Principle_of_Laser/Summary.md	/^##### 碰撞加宽$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""加宽""均匀加宽: 洛伦兹型
+算法分析	./DataStructure/chapter1/AlgorithmAnalysis.md	/^# 算法分析$/;"	c
+粒子数关系	./Principle_of_Laser/Summary.md	/^### 粒子数关系$/;"	S	section:激光原理知识点总结""基础概念
+线性代数	./DeepLearningBook/part2/linear_algebra.md	/^# 线性代数$/;"	c
+线性代数	DeepLearningBook/part2/linear_algebra.md	/^# 线性代数$/;"	c
+网络连接	./Python_Scraping/part1/part1.md	/^## 网络连接$/;"	s	chapter:爬虫基础知识
+考虑损耗	./Principle_of_Laser/Summary.md	/^#### 考虑损耗$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""能流密度
+能流密度	./Principle_of_Laser/Summary.md	/^### 能流密度$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+能量密度	./Principle_of_Laser/Summary.md	/^### 能量密度$/;"	S	section:激光原理知识点总结""基础概念
+腔寿命	./Principle_of_Laser/Summary.md	/^### 腔寿命$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+自发辐射跃迁概率(同时也是爱因斯坦系数)	./Principle_of_Laser/Summary.md	/^### 自发辐射跃迁概率(同时也是爱因斯坦系数)$/;"	S	section:激光原理知识点总结""基础概念
+自然加宽	./Principle_of_Laser/Summary.md	/^##### 自然加宽$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""加宽""均匀加宽: 洛伦兹型
+范数	./DeepLearningBook/part2/linear_algebra.md	/^## 范数$/;"	s	chapter:线性代数
+范数	DeepLearningBook/part2/linear_algebra.md	/^## 范数$/;"	s	chapter:线性代数
+菲涅尔数	./Principle_of_Laser/Summary.md	/^### 菲涅尔数$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+衍射损耗	./Principle_of_Laser/Summary.md	/^### 衍射损耗$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+表(list)	./DataStructure/chapter2/List.md	/^# 表(list)$/;"	c
+表示学习（representation learning）	./DeepLearningBook/part1/introduction1.md	/^### 表示学习（representation learning）$/;"	S	section:介绍1""机器学习（machine learning）
+表达式树	./DataStructure/chapter3/Tree.md	/^### 表达式树$/;"	S	section:树(Tree)""二叉树(Binary Trees)
+课后题回答	./DataStructure/chapter1/resolution.md	/^# 课后题回答$/;"	c
+谐振腔基本知识	./Principle_of_Laser/Summary.md	/^## 谐振腔基本知识$/;"	s	chapter:激光原理知识点总结
+输出损耗	./Principle_of_Laser/Summary.md	/^### 输出损耗$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+迹	./DeepLearningBook/part2/linear_algebra.md	/^## 迹$/;"	s	chapter:线性代数
+迹	DeepLearningBook/part2/linear_algebra.md	/^## 迹$/;"	s	chapter:线性代数
+速率方程	./Principle_of_Laser/Summary.md	/^### 速率方程$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+遇到的困难	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 遇到的困难$/;"	s	chapter:在配置GVim过程中遇到的一些问题
+链表(linked list)	./DataStructure/chapter2/List.md	/^## 链表(linked list)$/;"	s	chapter:表(list)
+链表的游标实现	./DataStructure/chapter2/List.md	/^### 链表的游标实现$/;"	S	section:表(list)""例子
+队列(queue)	./DataStructure/chapter2/Queue.md	/^# 队列(queue)$/;"	c
+队列模型(queue model)	./DataStructure/chapter2/Queue.md	/^## 队列模型(queue model)$/;"	s	chapter:队列(queue)
+队列的数组实现	./DataStructure/chapter2/Queue.md	/^## 队列的数组实现$/;"	s	chapter:队列(queue)
+需求说明	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 需求说明$/;"	s	chapter:在配置GVim过程中遇到的一些问题
+非均匀加宽	./Principle_of_Laser/Summary.md	/^#### 非均匀加宽$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""增益系数
+非均匀加宽: 高斯型	./Principle_of_Laser/Summary.md	/^#### 非均匀加宽: 高斯型$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""加宽
+预备知识	./DataStructure/chapter3/Tree.md	/^## 预备知识$/;"	s	chapter:树(Tree)
+频率间隔(频间)	./Principle_of_Laser/Summary.md	/^### 频率间隔(频间)$/;"	S	section:激光原理知识点总结""谐振腔基本知识
