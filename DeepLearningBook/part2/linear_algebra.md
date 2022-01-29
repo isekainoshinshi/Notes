@@ -198,7 +198,8 @@ $$
 
 \nabla_{c} (-2x^{\mathrm{T}}Dc + c^{\mathrm{T}}c) = 0\\
 -2D^{\mathrm{T}}x + 2c = 0\\
-c = D^{\mathrm{T}}x
+c = D^{\mathrm{T}}x\\
+r(x) = DD^{\mathrm{T}}x
 
 \end{aligned}
 $$ 
@@ -207,3 +208,78 @@ $$
 一个点和其解码后的点的距离只要满足上式就可以最小，即最精确，
 但对于每一个点不可能都使用一个单独的$D$，
 所以就要保证一个通用的$D$对所有点的总误差最小。
+
+$$
+D^{*} = \mathop{\operatorname{argmin}} \limits_{D} \sqrt{\sum_{i, j} (x_{j}^{(i)} - r(x^{(i)})_{j})^2}  
+$$ 
+
+上式可以看作是由解码向量与原始向量之差组成的矩阵，
+之后应用了forbenius范数来衡量整个矩阵的大小，
+即衡量解码和原始向量整体的距离。
+
+现在将问题简化，设$l =  1$，那么此时$D$就变为$d$一个向量。
+
+$$
+\begin{aligned}
+
+& d^{*} = \mathop{\operatorname{argmin}} \limits_{d} \sqrt{\sum_{i}^{} (x^{(i)} - dd^{\mathrm{T}}x^{(i)})^2}\\
+& 简化为= \mathop{\operatorname{argmin}} \limits_{d}\|x^{(i)} - d^{\mathrm{T}}x^{(i)} d\|_{2}^2\\
+& 或= \mathop{\operatorname{argmin}} \limits_{d}\|x^{(i)} - x^{(i)^{\mathrm{T}}} d d \|_{2}^2
+
+\end{aligned}
+$$ 
+
+将上式最后一个以矩阵的形式表示，而不是继续使用离散的向量表示，可以得到：
+
+$$
+\begin{aligned}
+	
+&d^{*} = \mathop{\operatorname{argmin}} \limits_{d} \|X - Xdd^{\mathrm{T}}\|_{F}^{2} \\
+& = \mathop{\operatorname{argmin}}\limits_{d} \mathop{\operatorname{Tr}}((X - Xdd^{\mathrm{T}})^{\mathrm{T}} (X - Xdd^{\mathrm{T}})) \\
+
+& = \mathop{\operatorname{argmin}} \limits_{d} \mathop{\operatorname{Tr}}(X^{\mathrm{T}}X - X^{\mathrm{T}}Xdd^{\mathrm{T}} - dd^{\mathrm{T}}X^{\mathrm{T}}X + dd^{\mathrm{T}}X^{\mathrm{T}}Xdd^{\mathrm{T}}) \\
+
+& = \mathop{\operatorname{argmin}}\limits_{d} 
+[- \mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}})
+- \mathop{\operatorname{Tr}}(dd^{\mathrm{T}}X^{\mathrm{T}}X) 
++ \mathop{\operatorname{Tr}}(dd^{\mathrm{T}}X^{\mathrm{T}}Xdd^{\mathrm{T}})] \\
+
+& = \mathop{\operatorname{argmin}}\limits_{d} 
+[-2 \mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}}) 
++ \mathop{\operatorname{Tr}}(dd^{\mathrm{T}}X^{\mathrm{T}}Xdd^{\mathrm{T}})]\\
+
+& = \mathop{\operatorname{argmin}}\limits_{d} 
+[-2\mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}})
++ \mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}}dd^{\mathrm{T}})]\\
+
+& = \mathop{\operatorname{argmin}}\limits_{d} 
+[-2\mathop{\operatorname{Tr}} (X^{\mathrm{T}}Xdd^{\mathrm{T}})
++ \mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}})]\\
+
+& = \mathop{\operatorname{argmin}}\limits_{d} 
+-2 \mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}})
+
+\end{aligned}
+$$ 
+
+其中$X \in \R^{m \times n}$, $m, n$分别为样本向量的数量和样本向量的维度，
+上面的推导中有包含一些信息:
+
+- $X^{\mathrm{T}}X$可以看作是一个系数
+- $d^{\mathrm{T}}d = 1$
+
+上面的问题进一步转换：
+
+$$
+\begin{aligned}
+	
+& = \mathop{\operatorname{argmax}}\limits_{d} 
+\mathop{\operatorname{Tr}}(X^{\mathrm{T}}Xdd^{\mathrm{T}})\\
+
+& = \mathop{\operatorname{argmax}}\limits_{Tr} 
+\mathop{\operatorname{Tr}}(d^{\mathrm{T}}X^{\mathrm{T}}Xd)
+
+\end{aligned}
+$$ 
+
+而这个式子就可以通过特征值分解得到其结果。
