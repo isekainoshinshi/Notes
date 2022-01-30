@@ -44,6 +44,7 @@ Introduction	./DataStructure/README.md	/^# Introduction$/;"	c
 Introduction	./HowToGit/README.md	/^# Introduction$/;"	c
 Moore-Penrose伪逆	./DeepLearningBook/part2/linear_algebra.md	/^## Moore-Penrose伪逆$/;"	s	chapter:线性代数
 Moore-Penrose伪逆	DeepLearningBook/part2/linear_algebra.md	/^## Moore-Penrose伪逆$/;"	s	chapter:线性代数
+Multinoulli分布	DeepLearningBook/part3/probability_theory.md	/^### Multinoulli分布$/;"	S	section:概率论""常用概率分布
 Q值	./Principle_of_Laser/Summary.md	/^### Q值$/;"	S	section:激光原理知识点总结""谐振腔基本知识
 Summary	./DataStructure/SUMMARY.md	/^# Summary$/;"	c
 Summary	./HowToGit/SUMMARY.md	/^# Summary$/;"	c
@@ -87,6 +88,7 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 光源移动, 接收器静止:	./Principle_of_Laser/Summary.md	/^###### 光源移动, 接收器静止:$/;"	u	l4subsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型""多普勒频移
 光源静止, 接收器移动:	./Principle_of_Laser/Summary.md	/^###### 光源静止, 接收器移动:$/;"	u	l4subsection:激光原理知识点总结""谐振腔基本知识""加宽""非均匀加宽: 高斯型""多普勒频移
 共振速度	./Principle_of_Laser/Summary.md	/^### 共振速度$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+分布的混合	DeepLearningBook/part3/probability_theory.md	/^### 分布的混合$/;"	S	section:概率论""常用概率分布
 分类	./Principle_of_Laser/Summary.md	/^### 分类$/;"	S	section:激光原理知识点总结""谐振腔基本知识
 前提	./DataStructure/chapter1/AlgorithmAnalysis.md	/^## 前提$/;"	s	chapter:算法分析
 加宽	./Principle_of_Laser/Summary.md	/^### 加宽$/;"	S	section:激光原理知识点总结""谐振腔基本知识
@@ -119,17 +121,22 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 小信号反转粒子数	./Principle_of_Laser/Summary.md	/^##### 小信号反转粒子数$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""小信号速率方程""四能级系统
 小信号速率方程	./Principle_of_Laser/Summary.md	/^### 小信号速率方程$/;"	S	section:激光原理知识点总结""谐振腔基本知识
 差变因素（factors of variation）	./DeepLearningBook/part1/introduction1.md	/^### 差变因素（factors of variation）$/;"	S	section:介绍1""机器学习（machine learning）
+常用概率分布	DeepLearningBook/part3/probability_theory.md	/^## 常用概率分布$/;"	s	chapter:概率论
 平均单程损耗率	./Principle_of_Laser/Summary.md	/^### 平均单程损耗率$/;"	S	section:激光原理知识点总结""谐振腔基本知识
 平均情况分析	./DataStructure/chapter3/Tree.md	/^### 平均情况分析$/;"	S	section:树(Tree)""查找树ADT---二叉查找树(binary search tree)
 应用	./DataStructure/chapter3/Tree.md	/^### 应用$/;"	S	section:树(Tree)""预备知识
 循环链表(circularly linked list)	./DataStructure/chapter2/List.md	/^### 循环链表(circularly linked list)$/;"	S	section:表(list)""链表(linked list)
 总结	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 总结$/;"	s	chapter:在配置GVim过程中遇到的一些问题
 抽象数据类	./DataStructure/chapter2/AbstractDataTypes.md	/^# 抽象数据类$/;"	c
+指数分布和拉普拉斯分布	DeepLearningBook/part3/probability_theory.md	/^### 指数分布和拉普拉斯分布$/;"	S	section:概率论""常用概率分布
 插件配置	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^## 插件配置$/;"	s	chapter:在配置GVim过程中遇到的一些问题
 数学定义	./DataStructure/chapter1/AlgorithmAnalysis.md	/^## 数学定义$/;"	s	chapter:算法分析
 无法找到Ruby的一些文件	./ProblemWhileInstallingGVim/ProblemWhileInstallingGVim.md	/^### 无法找到Ruby的一些文件$/;"	S	section:在配置GVim过程中遇到的一些问题""遇到的困难
+期望，方差，协方差	DeepLearningBook/part3/probability_theory.md	/^## 期望，方差，协方差$/;"	s	chapter:概率论
 本征纵模线宽	./Principle_of_Laser/Summary.md	/^### 本征纵模线宽$/;"	S	section:激光原理知识点总结""谐振腔基本知识
 机器学习（machine learning）	./DeepLearningBook/part1/introduction1.md	/^## 机器学习（machine learning）$/;"	s	chapter:介绍1
+条件概率	DeepLearningBook/part3/probability_theory.md	/^## 条件概率$/;"	s	chapter:概率论
+条件概率的链式法则	DeepLearningBook/part3/probability_theory.md	/^## 条件概率的链式法则$/;"	s	chapter:概率论
 条款1: 理解模板型别推导	./Effective_Mordern_CPP/chapter1/类别推导.md	/^# 条款1: 理解模板型别推导$/;"	c
 查找树ADT---二叉查找树(binary search tree)	./DataStructure/chapter3/Tree.md	/^## 查找树ADT---二叉查找树(binary search tree)$/;"	s	chapter:树(Tree)
 栈(stack)	./DataStructure/chapter2/Stack.md	/^# 栈(stack)$/;"	c
@@ -137,6 +144,7 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 栈的链表实现	./DataStructure/chapter2/Stack.md	/^## 栈的链表实现$/;"	s	chapter:栈(stack)
 树(Tree)	./DataStructure/chapter3/Tree.md	/^# 树(Tree)$/;"	c
 树的实现	./DataStructure/chapter3/Tree.md	/^### 树的实现$/;"	S	section:树(Tree)""预备知识
+概率论	DeepLearningBook/part3/probability_theory.md	/^# 概率论$/;"	c
 模密度	./Principle_of_Laser/Summary.md	/^### 模密度$/;"	S	section:激光原理知识点总结""基础概念
 深度学习对问题的解决	./DeepLearningBook/part1/introduction1.md	/^### 深度学习对问题的解决$/;"	S	section:介绍1""机器学习（machine learning）
 激光原理知识点总结	./Principle_of_Laser/Summary.md	/^# 激光原理知识点总结$/;"	c
@@ -144,9 +152,13 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 爬虫基础知识	./Python_Scraping/part1/part1.md	/^# 爬虫基础知识$/;"	c
 特征分解	./DeepLearningBook/part2/linear_algebra.md	/^## 特征分解$/;"	s	chapter:线性代数
 特征分解	DeepLearningBook/part2/linear_algebra.md	/^## 特征分解$/;"	s	chapter:线性代数
+狄拉克分布和经验分布	DeepLearningBook/part3/probability_theory.md	/^### 狄拉克分布和经验分布$/;"	S	section:概率论""常用概率分布
+独立和条件独立	DeepLearningBook/part3/probability_theory.md	/^## 独立和条件独立$/;"	s	chapter:概率论
 相干时间	./Principle_of_Laser/Summary.md	/^### 相干时间$/;"	S	section:激光原理知识点总结""基础概念
 相干面积	./Principle_of_Laser/Summary.md	/^### 相干面积$/;"	S	section:激光原理知识点总结""基础概念
+矩阵分布	DeepLearningBook/part3/probability_theory.md	/^### 矩阵分布 $/;"	S	section:概率论""常用概率分布
 碰撞加宽	./Principle_of_Laser/Summary.md	/^##### 碰撞加宽$/;"	T	subsubsection:激光原理知识点总结""谐振腔基本知识""加宽""均匀加宽: 洛伦兹型
+离散变量和概率质量函数	DeepLearningBook/part3/probability_theory.md	/^## 离散变量和概率质量函数$/;"	s	chapter:概率论
 算法分析	./DataStructure/chapter1/AlgorithmAnalysis.md	/^# 算法分析$/;"	c
 粒子数关系	./Principle_of_Laser/Summary.md	/^### 粒子数关系$/;"	S	section:激光原理知识点总结""基础概念
 线性代数	./DeepLearningBook/part2/linear_algebra.md	/^# 线性代数$/;"	c
@@ -168,6 +180,7 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 课后题回答	./DataStructure/chapter1/resolution.md	/^# 课后题回答$/;"	c
 谐振腔基本知识	./Principle_of_Laser/Summary.md	/^## 谐振腔基本知识$/;"	s	chapter:激光原理知识点总结
 输出损耗	./Principle_of_Laser/Summary.md	/^### 输出损耗$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+连续变量和概率密度函数	DeepLearningBook/part3/probability_theory.md	/^## 连续变量和概率密度函数$/;"	s	chapter:概率论
 迹	./DeepLearningBook/part2/linear_algebra.md	/^## 迹$/;"	s	chapter:线性代数
 迹	DeepLearningBook/part2/linear_algebra.md	/^## 迹$/;"	s	chapter:线性代数
 速率方程	./Principle_of_Laser/Summary.md	/^### 速率方程$/;"	S	section:激光原理知识点总结""谐振腔基本知识
@@ -182,3 +195,4 @@ tree	./HowToGit/chapter2/chapter2.md	/^### tree$/;"	S	section:在.git文件中�
 非均匀加宽: 高斯型	./Principle_of_Laser/Summary.md	/^#### 非均匀加宽: 高斯型$/;"	t	subsection:激光原理知识点总结""谐振腔基本知识""加宽
 预备知识	./DataStructure/chapter3/Tree.md	/^## 预备知识$/;"	s	chapter:树(Tree)
 频率间隔(频间)	./Principle_of_Laser/Summary.md	/^### 频率间隔(频间)$/;"	S	section:激光原理知识点总结""谐振腔基本知识
+高斯分布	DeepLearningBook/part3/probability_theory.md	/^### 高斯分布$/;"	S	section:概率论""常用概率分布
